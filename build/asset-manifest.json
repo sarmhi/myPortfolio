@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.394349cc.css",
+    "main.js": "/static/js/main.2182666e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/tempownEnt.png": "/static/media/tempownEnt.8d1448619dccc1ba0097.png",
+    "static/media/tempown.png": "/static/media/tempown.c6e3c1a6f768f3a21f90.png",
+    "static/media/imagePizzle.png": "/static/media/imagePizzle.3d3ed3e1bd3ef6b3cd9a.png",
+    "static/media/sammiUrl.png": "/static/media/sammiUrl.b063d045ac13833dbbef.png",
+    "static/media/property2.png": "/static/media/property2.9dd8c56a399261ae347e.png",
+    "static/media/skilful.png": "/static/media/skilful.a6d0c10e391fcb0f3b36.png",
+    "static/media/Montserrat-Regular.woff": "/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff",
+    "static/media/stitchack.png": "/static/media/stitchack.09e09a1f281e3d82f34b.png",
+    "static/media/udapeople.png": "/static/media/udapeople.49860f556b34ef101a8b.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/signature.png": "/static/media/signature.8319ff16b94e0dd89907.png",
+    "static/media/maintenance.svg": "/static/media/maintenance.8375d2d844a96eaf4b4171f672e9ed6a.svg",
+    "index.html": "/index.html",
+    "static/media/arrowRight.svg": "/static/media/arrowRight.5ba8cb7a075fe0288df3ef1290e4a569.svg",
+    "main.394349cc.css.map": "/static/css/main.394349cc.css.map",
+    "main.2182666e.js.map": "/static/js/main.2182666e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.394349cc.css",
+    "static/js/main.2182666e.js"
+  ]
+}
