@@ -1,0 +1,158 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+nav>a {}
+
+.navbar {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: 0 3em !important; */
+    /* height: 90px; */
+    padding: 30px 0;
+}
+
+nav a,
+nav p {
+    text-decoration: none;
+    font-weight: 700;
+    color: #999999;
+    font-size: 0.8em;
+}
+
+.navlinks {
+    background-color: black;
+    display: flex;
+    padding-right: 4em;
+}
+
+.navlinks a,
+.navlinks p {
+    margin: 0 1em;
+}
+
+a:hover,
+a:active,
+a:focus,
+p:hover,
+p:active,
+p:focus {
+    color: #ffffff;
+}
+
+.navbar-expand-md .offcanvas .offcanvas-body {
+    align-self: end;
+}
+
+[type=button]:not(:disabled),
+button:not(:disabled) {
+    background-color: #ffffff;
+}
+
+.offcanvas.show:not(.hiding) {
+    background-color: #000000;
+    width: 100%;
+    padding: 20px;
+}
+
+.navlinks svg {
+    display: none;
+}
+
+.navlinks .contact-wrap {
+    display: none;
+}
+
+.btn-close {
+    color: #ffffff;
+}
+
+@media (min-width: 1600px) {
+    .navlinks a {
+        font-size: 1.3vw;
+        margin: 0 1.3vw;
+    }
+
+    .navbar {
+        padding: 3vw 0;
+    }
+
+    .navbar img {
+        height: 4vh;
+        width: 10vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .offcanvas-body {
+        padding: 0;
+    }
+
+    .offcanvas .navlinks {
+        flex-direction: column;
+        font-size: 40px;
+        line-height: 160px;
+        margin: 0;
+        padding-right: 0em;
+    }
+
+    .navlinks a,
+    .navlinks p {
+        color: #999999;
+        display: flex;
+        width: 100%;
+        align-items: baseline;
+        border-bottom: 1px solid #999999;
+    }
+
+    a:hover,
+    a:active,
+    a:focus,
+    p:hover,
+    p:active,
+    p:focus {
+        color: #ffffff;
+    }
+
+    .offcanvas .navlinks svg {
+        display: block;
+        width: 15px;
+        margin-left: 10px;
+    }
+
+    .navlinks .contact-wrap {
+        display: block;
+    }
+
+    .contact-wrap p {
+        color: #ffffff;
+        font-size: 16px;
+        border: none;
+        height: 10px;
+    }
+
+    .contact-wrap .socials {
+        font-size: 16px;
+        height: 3em;
+    }
+
+    .navlinks {
+        margin: 0;
+    }
+
+    .offcanvas-body a {
+        margin: 0;
+        font-size: 20px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        align-items: center;
+        height: 120px;
+    }
+
+}

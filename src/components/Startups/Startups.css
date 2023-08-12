@@ -1,0 +1,99 @@
+#startups {
+    padding-top: 4em;
+    margin-bottom: 5em;
+}
+
+#startups .startups {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+#startups .startup {
+    width: 100%;
+    padding: 20px 20px;
+    border-left: 6px solid green;
+    background: rgba(255, 255, 255, 0.09);
+    min-height: 100px;
+}
+
+#startups .startup h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#startups .startup p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+.scroll {
+    overflow-y: auto;
+}
+
+@media (max-width: 700px) {
+    .scroll {
+        overflow-y: hidden;
+    }
+}
+
+@media (min-width: 800px) {
+    #startups h1 {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #startups h1 {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+
+    #startups {
+        padding-top: 5vw;
+    margin-bottom: 5vw;
+    }
+
+    #startups .startup {
+        padding: 2vw;
+        border-left: 0.7vw solid green;
+    }
+
+    #startups .startup h3 {
+        font-size: 2vw;
+        line-height: 2vw;
+        margin-bottom: 1vw;
+    }
+
+    #startups .startup p {
+        font-size: 1.2vw;
+        line-height: 2vw;
+        margin: 1vw 0;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #startups h1 {
+        font-size: 34px;
+        line-height: 70px;
+    }
+
+    #startups .startup p {
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width: 600px) {
+    #startups .startup h3 {
+        font-size: 18px;
+    }
+
+    #startups h1 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+}

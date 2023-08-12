@@ -1,0 +1,70 @@
+.home {
+        padding: 0 3em;
+
+}
+
+.header {
+    font-size: 96px;
+    line-height: 115px;
+    color: #ffffff;
+    margin: 1em 0 0.5em 0;
+}
+
+.text {
+    color: #d9d9d9;
+    font-size: 30px;
+    text-align: center;
+}
+.text span {
+    font-weight: 700;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+
+.flip {
+    animation-name: flip;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes flip {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        color: green;
+        margin-left: 0.3em;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        font-size: 76px;
+    }
+}
+
+@media (max-width: 660px) {
+    .header {
+        font-size: 60px;
+    }
+     .home {
+        padding: 0 1.5em !important;
+    }
+}
+@media (max-width: 400px) {
+    .text {
+        font-size: 23px;
+    }
+    .header {
+        font-size: 39px;
+        line-height: 65px;
+    }
+
+   
+}

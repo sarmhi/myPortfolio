@@ -1,0 +1,148 @@
+#projectspage {
+  /* padding-top: 4em; */
+  margin: 0 3em;
+  margin-bottom: 3em;
+}
+
+#projectspage .navbar {
+  padding-bottom: 4em;
+}
+
+#projectspage > p {
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 1.5em;
+  /* border-bottom: 1px solid #999999; */
+}
+
+#projectspage .project {
+  display: flex;
+  flex-direction: flex;
+  gap: 40px;
+  margin-bottom: 4em;
+  border-top: 1px solid #999999;
+  padding-top: 40px;
+}
+
+#projectspage .project > div {
+  width: 40%;
+}
+
+#projectspage .project img {
+  width: 50%;
+  height: 450px;
+}
+
+.subtitle {
+  font-style: normal;
+  font-size: 16px;
+  color: #999999;
+}
+
+.title {
+  color: #ffffff;
+}
+
+.description {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+@media (min-width: 800px) {
+  .title {
+    font-size: 30px;
+    line-height: 56px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #projectspage {
+    margin: 0 4vw;
+  }
+
+  
+  .title {
+    font-size: 2.4vw !important;
+    line-height: 2.4vw !important;
+  }
+
+  .description {
+    font-size: 1.2vw;
+    line-height: 2vw;
+    margin: 0.5vw 0;
+  }
+
+  .subtitle {
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    margin: 0.5vw 0;
+  }
+
+  #projectspage .project img {
+    height: 35vh;
+    width: 45%;
+  }
+
+  #projectspage .project {
+    gap: 3vw;
+    padding-top: 3vw;
+    margin-bottom: 5vw;
+  }
+
+  #projectspage > p {
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+  }
+}
+
+@media (max-width: 660px) {
+  .project {
+    flex-direction: column-reverse;
+  }
+
+  #projectspage .project img,
+  #projectspage .project > div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  #projectspage {
+    margin: 0 1.5em;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .subtitle {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 800px) {
+  .title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+  }
+
+  #projectspage .project img {
+    height: 300px;
+  }
+}

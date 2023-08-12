@@ -1,0 +1,129 @@
+@font-face {
+    font-family: montserrat;
+    src: url(./fonts/Montserrat-Regular.woff);
+}
+body {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: #000000;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+/* s croll fxn */
+
+.scroll-el {
+    opacity: 0;
+
+}
+
+.scroll-el.scrolled {
+    opacity: 1;
+    animation: slides-to-top 1s ease-in-out both ;
+}
+
+@keyframes slides-to-top {
+    0% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slides-to-top-desktop {
+    0% {
+        margin-top: 30vh;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .scroll-el.scrolled {
+        opacity: 1;
+        animation: slides-to-top-desktop 1s ease-in-out both ;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
+
+.subtitle-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle-wrap em {
+    padding-right: 5px;
+}
+
+/* .scroll-el {
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.7s ease-out;
+    transition-delay: 0.4s;
+}
+
+.scroll-animation {
+    opacity: 1;
+    transform: translateX(0);
+} */

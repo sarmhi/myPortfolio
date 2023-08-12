@@ -1,0 +1,108 @@
+#contact {
+    width: 100%;
+}
+
+#contact span {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 92px;
+    color: #FFFFFF;
+}
+
+#contact a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+    color: #999999;
+    margin-right: 2em;
+}
+
+.socials {
+    display: flex;
+    margin: 3em 0;
+}
+
+footer {
+    margin: 2em 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+footer span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 1em;
+    color: #999999;
+}
+
+
+@media (min-width: 1600px) {
+    #contact {
+        padding-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    #contact span {
+        font-size: 3.4vw;
+        line-height: 5.4vw;
+    }
+
+    #contact a {
+        font-size: 1.6vw;
+        line-height: 1.6vw;
+        margin-right: 3vw;
+    }
+
+    footer span {
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+        margin-right: 2vw;
+    }
+
+    footer {
+        font-size: 0.8vw;
+        line-height: 0.8vw;
+    }
+}
+
+@media (max-width: 800px) {
+    #contact span {
+        font-size: 34px;
+        line-height: 70px;
+    }
+
+    .socials {
+        margin: 1em 0;
+    }
+
+    #contact a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    #contact span {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    #contact span {
+        font-size: 20px;
+        line-height: 50px;
+    }
+}

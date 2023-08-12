@@ -1,0 +1,93 @@
+#skills {
+    padding-top: 4em;
+    margin-bottom: 3em;
+}
+
+#skills .skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}
+#skills .skill {
+    background: green;
+    width: 170px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px 0;
+}
+
+#skills .skill p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.scroll {
+    overflow-y: auto;
+}
+
+@media (max-width: 700px) {
+    .scroll {
+        overflow-y: hidden;
+    }
+}
+
+@media (min-width: 800px) {
+    #skills h1 {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #skills {
+        padding-top: 5vw;
+    margin-bottom: 5vw;
+    }
+    #skills h1 {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+
+    #skills .skill {
+        width: 17vw;
+    height: 5vw;
+    }
+
+    #skills .skill p {
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+    }
+}
+
+@media (max-width: 800px) {
+    #skills h1 {
+        font-size: 34px;
+        line-height: 70px;
+    }
+
+    #skills .skill p{
+        font-size: 13px;
+    }
+
+    #skills .skill {
+        width: 20%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #skills .skill {
+        width: 110px;
+        padding: 0 10px;
+    }
+
+    #skills h1 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+}
+

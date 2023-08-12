@@ -1,0 +1,161 @@
+#projects {
+    padding-top: 4em;
+    margin-bottom: 3em;
+}
+
+#projects>p {
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0;
+    border: none;
+}
+
+#projects .projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}
+
+#projects .project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+    width: 47%;
+    border-top: 1px solid #999999;
+    padding-top: 1em;
+    margin-right: auto;
+}
+
+#projects .project>div {
+    width: 100%;
+    height: 160px;
+}
+
+#projects .project img {
+    height: 350px;
+    width: 100%;
+    margin: 1em 0;
+}
+
+#projects .subtitle {
+    font-style: normal;
+    font-size: 13px;
+    color: #999999;
+}
+
+#projects .title {
+    color: #FFFFFF;
+}
+
+#projects .description {
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+#projects .more {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    align-self: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: flex-end;
+    gap: 7px;
+}
+
+.scroll {
+    overflow-y: auto;
+}
+
+@media (max-width: 700px) {
+    #projects .project {
+        width: auto;
+
+    }
+
+    #projects .more {
+        font-size: 16px;
+    }
+
+    #projects .more svg {
+        width: 16px;
+    }
+
+    .scroll {
+        overflow-y: hidden;
+    }
+
+    #projects .project>div {
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1600px) {
+
+    #projects {
+        padding-top: 9vw;
+    margin-bottom: 5vw;
+    }
+    
+    #projects .title {
+        font-size: 2.4vw;
+        line-height: 2.4vw;
+    }
+
+    #projects .description {
+        font-size: 1.2vw;
+        line-height: 2vw;
+        margin: 0.5vw 0;
+    }
+
+    #projects .subtitle {
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+        margin: 0.5vw 0;
+    }
+
+    #projects .project>div {
+        height: 40%;
+    }
+
+    #projects .project img {
+        height: 30vh;
+    }
+
+    #projects .more {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+
+    #projects .more svg {
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+@media (max-width: 800px) {
+    #projects h1 {
+        font-size: 34px;
+        line-height: 70px;
+    }
+
+    #projects .title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    #projects .project img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    #projects h1 {
+    font-size: 25px;
+    line-height: 50px;
+}
+}
