@@ -3,9 +3,6 @@ import tempownEnt from "../assets/projects/tempownEnt.png";
 import imagePizzle from "../assets/projects/imagePizzle.png";
 import sammiUrl from "../assets/projects/sammiUrl.png";
 import property from "../assets/projects/property2.png";
-import skilful from "../assets/projects/skilful.png";
-import stitchack from "../assets/projects/stitchack.png";
-import udapeople from "../assets/projects/udapeople.png";
 
 const data = [
   {
