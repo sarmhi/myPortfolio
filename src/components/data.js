@@ -3,6 +3,7 @@ import tempownEnt from "../assets/projects/tempownEnt.png";
 import imagePizzle from "../assets/projects/imagePizzle.png";
 import sammiUrl from "../assets/projects/sammiUrl.png";
 import property from "../assets/projects/property2.png";
+import cinematics from "../assets/projects/cinematics.png";
 
 const data = [
   {
@@ -12,6 +13,15 @@ const data = [
     link: "https://www.tempown.com/",
     subtitle: "Peer-to-peer e-commerce site",
     description: `A peer-to-peer e-commerce site that connects lenders and borrowers of a particular item together for a small fee.`
+  },
+  {
+    name: 'Cinematics',
+    image: cinematics,
+    stack: "React.js, Javascript, HTML5, TailwindCss, Typescript, Axios, Vite",
+    link: 'https://cinematicsng.com/',
+    subtitle: "Company Website",
+    description: `Cinematics is an event and experience company that excels in creating 
+                exceptional digital content for a wide range of events and occasions.`
   },
   {
     name: "Property",
